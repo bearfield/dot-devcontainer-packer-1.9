@@ -1,4 +1,4 @@
-FROM ghcr.io/kumanoryo/debian-fish:bookworm
+FROM ghcr.io/bearfield/debian-fish:bookworm
 #
 # set argument
 ARG PACKER_VERSION=1.9.*
@@ -18,4 +18,4 @@ RUN curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add - \
 #
 # set env
 ENV DEBIAN_FRONTEND=dialog
-LABEL org.opencontainers.image.source https://github.com/kumanoryo/dot-devcontainer-packer-1.9
+LABEL org.opencontainers.image.source https://github.com/bearfield/dot-devcontainer-packer-1.9

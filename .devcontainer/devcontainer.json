@@ -1,6 +1,6 @@
 {
     "name": "packer-1.9",
-    "image": "ghcr.io/kumanoryo/packer:1.9",
+    "image": "ghcr.io/bearfield/packer:1.9",
     "remoteUser": "kumano_ryo",
     "mounts": [
         "source=${localEnv:HOME}/devcontainer_conf/.gitconfig_linux,target=/home/kumano_ryo/.gitconfig,type=bind,consistency=cached",
